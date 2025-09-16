@@ -15,8 +15,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IqBraveLMS"
         android:usesCleartextTraffic="true">
-        <activity android:name=".RegisterActivity"
-            android:exported="false"/>
+        <activity
+            android:name=".EditCourseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreateCourse"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
         <activity
             android:name=".InstructorDashboardActivity"
             android:exported="false" />
@@ -35,10 +42,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!-- MainActivity එකත් මෙතන declare කරලා තියෙනවා නම් හොඳයි, LoginActivity එකේ fallback එකක් ලෙස පාවිච්චි වෙන නිසා -->
-        <!-- <activity -->
-        <!-- android:name=".MainActivity" -->
-        <!-- android:exported="false" /> -->
     </application>
 
 </manifest>
