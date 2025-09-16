@@ -8,9 +8,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="Register"
         android:textSize="22sp"
         android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:padding="12dp"/>
 
     <EditText
         android:id="@+id/editEmail"
@@ -18,7 +25,8 @@
         android:layout_height="wrap_content"
         android:hint="Email"
         android:inputType="textEmailAddress"
-        android:padding="12dp"/>
+        android:padding="12dp"
+        android:layout_marginTop="8dp"/>
 
     <EditText
         android:id="@+id/editPassword"
@@ -30,10 +38,10 @@
         android:layout_marginTop="8dp"/>
 
     <Button
-        android:id="@+id/btnLogin"
+        android:id="@+id/btnRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="Register"
         android:layout_marginTop="16dp"/>
 
     <ProgressBar
@@ -43,13 +51,4 @@
         android:visibility="gone"
         android:layout_gravity="center"
         android:layout_marginTop="16dp"/>
-
-    <TextView
-        android:id="@+id/textRegister"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Don't have an account? Register here"
-        android:textColor="@android:color/holo_blue_dark"
-        android:layout_marginTop="16dp"/>
-
 </LinearLayout>
