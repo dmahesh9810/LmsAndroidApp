@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -24,21 +23,25 @@
             android:textStyle="bold"
             android:textColor="#212121"
             android:layout_marginBottom="24dp"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            />
 
-        <!-- Course Title -->
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Course Title"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:boxStrokeColor="#6200EE"
+            app:boxBackgroundColor="#FFFFFF"
             android:layout_marginBottom="16dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/editTextEditCourseTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textCapWords" />
+                android:inputType="textCapWords"
+                android:textColor="#212121"
+                android:textColorHint="#888888"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <!-- Course Description -->
@@ -47,6 +50,8 @@
             android:layout_height="wrap_content"
             android:hint="Course Description"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:boxStrokeColor="#6200EE"
+            app:boxBackgroundColor="#FFFFFF"
             android:layout_marginBottom="24dp">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -55,7 +60,9 @@
                 android:layout_height="wrap_content"
                 android:inputType="textMultiLine"
                 android:minLines="3"
-                android:gravity="top" />
+                android:gravity="top"
+                android:textColor="#212121"
+                android:textColorHint="#888888"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <!-- Update Button -->
@@ -66,9 +73,8 @@
             android:text="Update Course"
             android:textAllCaps="false"
             android:textSize="16sp"
-            app:cornerRadius="12dp"
-            app:backgroundTint="@color/purple_500"
-            android:textColor="@android:color/white" />
-
+            app:cornerRadius="16dp"
+            app:backgroundTint="#5E35B1"
+            android:textColor="#FFFFFF"/>
     </LinearLayout>
 </ScrollView>

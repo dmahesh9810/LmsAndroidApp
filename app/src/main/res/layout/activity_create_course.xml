@@ -32,13 +32,17 @@
             android:layout_height="wrap_content"
             android:hint="Course Title"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:boxStrokeColor="#6200EE"
+            app:boxBackgroundColor="#FFFFFF"
             android:layout_marginBottom="16dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/editTextCourseTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textCapWords" />
+                android:inputType="textCapWords"
+                android:textColor="#212121"
+                android:textColorHint="#888888"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <!-- Course Description -->
@@ -47,6 +51,8 @@
             android:layout_height="wrap_content"
             android:hint="Course Description"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:boxStrokeColor="#6200EE"
+            app:boxBackgroundColor="#FFFFFF"
             android:layout_marginBottom="24dp">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -55,20 +61,23 @@
                 android:layout_height="wrap_content"
                 android:inputType="textMultiLine"
                 android:minLines="3"
-                android:gravity="top" />
+                android:gravity="top"
+                android:textColor="#212121"
+                android:textColorHint="#888888"/>
         </com.google.android.material.textfield.TextInputLayout>
 
-        <!-- Save Button -->
-        <com.google.android.material.button.MaterialButton
+<com.google.android.material.button.MaterialButton
             android:id="@+id/buttonSaveCourse"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Save Course"
             android:textAllCaps="false"
             android:textSize="16sp"
-            app:cornerRadius="12dp"
-            app:backgroundTint="@color/purple_500"
-            android:textColor="@android:color/white" />
-
+            app:cornerRadius="16dp"
+            app:backgroundTint="#5E35B1"
+            android:textColor="#FFFFFF"
+            app:icon="@android:drawable/ic_menu_save"
+            app:iconPadding="8dp"/>
     </LinearLayout>
 </ScrollView>
+

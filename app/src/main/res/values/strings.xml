@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">IqBrave LMS</string>
+    <string name="iqbrave">IqBrave LMS</string> <!-- Added this line -->
 </resources>

@@ -17,9 +17,9 @@
             android:id="@+id/logoImage"
             android:layout_width="96dp"
             android:layout_height="96dp"
-            android:src="@mipmap/ic_launcher"
-            android:contentDescription="App Logo"
-            android:layout_marginBottom="24dp"/>
+            android:src="@mipmap/iqbrave_launcher"
+            android:layout_marginBottom="24dp"
+            android:contentDescription="App Logo" />
 
         <!-- Title -->
         <TextView
@@ -48,7 +48,9 @@
             android:padding="14dp"
             android:background="@drawable/edittext_background"
             android:drawableStart="@android:drawable/ic_menu_edit"
-            android:layout_marginBottom="12dp"/>
+            android:layout_marginBottom="12dp"
+            android:textColor="#000000"
+            android:textColorHint="#888888"/>
 
         <!-- Email -->
         <EditText
@@ -60,7 +62,9 @@
             android:padding="14dp"
             android:background="@drawable/edittext_background"
             android:drawableStart="@android:drawable/ic_dialog_email"
-            android:layout_marginBottom="12dp"/>
+            android:layout_marginBottom="12dp"
+            android:textColor="#000000"
+            android:textColorHint="#888888"/>
 
         <!-- Password -->
         <EditText
@@ -72,7 +76,9 @@
             android:padding="14dp"
             android:background="@drawable/edittext_background"
             android:drawableStart="@android:drawable/ic_lock_idle_lock"
-            android:layout_marginBottom="20dp"/>
+            android:layout_marginBottom="20dp"
+            android:textColor="#000000"
+            android:textColorHint="#888888"/>
 
         <!-- Register Button -->
         <Button

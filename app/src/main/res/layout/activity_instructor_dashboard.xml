@@ -28,12 +28,15 @@
         android:text="➕ Create New Course"
         android:textAllCaps="false"
         android:textSize="16sp"
-        app:cornerRadius="12dp"
+        app:cornerRadius="16dp"
         android:layout_margin="16dp"
         app:backgroundTint="@color/purple_500"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white"
+        app:icon="@android:drawable/ic_input_add"
+        app:iconPadding="8dp" />
 
-    <!-- Tabs for switching between All Courses / My Courses -->
+
+    <!-- Tabs -->
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabLayout"
         android:layout_width="match_parent"
@@ -55,3 +58,4 @@
         android:scrollbars="vertical" />
 
 </LinearLayout>
+
